@@ -126,12 +126,12 @@ A multi-sensor wearable that monitors heart rate, SpO2, ECG, body temperature, s
 <tr>
 <td width="50%" valign="top">
 
-**02 · FPGA Human Reaction Timer**<br/>
+**02 · Two-Player FPGA Reaction Timer**<br/>
 <sub>MSc Coursework · DE1-SoC</sub>
 
-Reaction-time tester in Verilog on the DE1-SoC. An FSM controls the test, with timing, debouncing and seven-segment output, verified in ModelSim before hardware.
+Two-player reaction game in Verilog. A main FSM drives title, instructions, ready, go and winner screens on an LT24 LCD (images stored in on-chip ROM), times both players, compares their reaction times and shows who wins. Debounced inputs, constrained in TimeQuest.
 
-![Verilog](https://img.shields.io/badge/Verilog-8A2BE2?style=flat-square) ![Quartus](https://img.shields.io/badge/Quartus-0071C5?style=flat-square&logo=intel&logoColor=white) ![ModelSim](https://img.shields.io/badge/ModelSim-1E88E5?style=flat-square) ![FSM](https://img.shields.io/badge/FSM-7B1FA2?style=flat-square)
+![Verilog](https://img.shields.io/badge/Verilog-8A2BE2?style=flat-square) ![Quartus](https://img.shields.io/badge/Quartus-0071C5?style=flat-square&logo=intel&logoColor=white) ![FSM](https://img.shields.io/badge/FSM-7B1FA2?style=flat-square) ![LT24 LCD](https://img.shields.io/badge/LT24_LCD-455A64?style=flat-square) ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
 
 [![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/vishnudevav/fpga-reaction-timer)
 
