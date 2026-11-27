@@ -16,7 +16,7 @@
 
 ## `$ dmesg | grep flagship`
 
-<a href="https://github.com/vishnudevav/wearable-health-monitor"><img src="assets/wearable-datapath.svg" width="100%" alt="Wearable Health Monitoring System datapath: heart-rate sensor into embedded C firmware (acquisition, motion-noise filtering, heart-rate extraction), prototyped on STM32 and migrated to ESP32, streaming over Wi-Fi to a host"/></a>
+<a href="https://github.com/vishnudevav/wearable-health-monitor"><img src="assets/wearable-datapath.svg" width="100%" alt="Wearable Health Monitoring System datapath: five sensors (HR/SpO2, ECG, temperature, IMU, GSR) into embedded C firmware (acquisition, motion-noise filtering, vital-sign extraction), prototyped on STM32 and migrated to ESP32, streaming over Wi-Fi to a host"/></a>
 
 ---
 
@@ -99,7 +99,7 @@ const Engineer vishnu = {
 ### 01 · Wearable Health Monitoring System
 > **MSc Project, University of Leeds**
 
-A wearable that monitors vital signs. I prototyped it on STM32, then moved it to ESP32 to get built-in Wi-Fi for live data streaming. The hardest part was the signal: heart-rate readings were noisy and jumped, especially when the wearer moved. I worked on filtering and processing to make them stable.
+A multi-sensor wearable that monitors heart rate, SpO2, ECG, body temperature, skin conductance (GSR) and motion (IMU). I prototyped it on STM32, then moved it to ESP32 to get built-in Wi-Fi for live data streaming. The hardest part was the signal: heart-rate readings were noisy and jumped, especially when the wearer moved. I worked on filtering and processing to make them stable.
 
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![Wi-Fi](https://img.shields.io/badge/Wi--Fi-IoT-2E7D32?style=flat-square) ![Biomedical](https://img.shields.io/badge/Biomedical-Sensing-C2185B?style=flat-square)
 
