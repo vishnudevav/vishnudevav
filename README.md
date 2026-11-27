@@ -14,6 +14,12 @@
 
 ---
 
+## `$ dmesg | grep flagship`
+
+<a href="https://github.com/vishnudevav/wearable-health-monitor"><img src="assets/wearable-datapath.svg" width="100%" alt="Wearable Health Monitoring System datapath: heart-rate sensor into embedded C firmware (acquisition, motion-noise filtering, heart-rate extraction), prototyped on STM32 and migrated to ESP32, streaming over Wi-Fi to a host"/></a>
+
+---
+
 ## `$ cat about_me.h`
 
 ```c
