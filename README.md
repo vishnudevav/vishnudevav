@@ -50,7 +50,24 @@ const Engineer vishnu = {
 
 ---
 
+## `$ journalctl --career`
+
+```diff
++ 2026 - now   PSB Academy, Singapore        Electrical Engineering with Robotics
++ 2026         University of Leeds, UK       MSc Embedded Systems Engineering (awarded Jul 2026)
+@ 2023 - 2024  Emertxe Information Tech.     Embedded Systems Engineer Trainee  ·  Oct 2023 - Nov 2024
+@ 2021 - 2022  Tessolve Semiconductor        Digital Hardware & Embedded Systems Intern  ·  Sep 2021 - Mar 2022
++ BEng         Sri Ramakrishna Eng. College  Electronics & Communication Engineering (Anna University)
+```
+
+---
+
 ## `$ ls ./skills`
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,matlab,arduino,linux,git,github,vscode&theme=dark" alt="skill icons"/>
+</p>
+
 
 **Languages**
 
@@ -105,65 +122,77 @@ A multi-sensor wearable that monitors heart rate, SpO2, ECG, body temperature, s
 
 [![View Code](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/vishnudevav/wearable-health-monitor)
 
-### 02 · FPGA Human Reaction Timer
-> **MSc Coursework · DE1-SoC**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A reaction-time tester written in Verilog on the DE1-SoC board. It uses a finite state machine to control the test, with timing, debouncing, and seven-segment display output, all verified in ModelSim before running on hardware.
+**02 · FPGA Human Reaction Timer**<br/>
+<sub>MSc Coursework · DE1-SoC</sub>
 
-![Verilog](https://img.shields.io/badge/Verilog-8A2BE2?style=flat-square) ![Quartus](https://img.shields.io/badge/Quartus_Prime-0071C5?style=flat-square&logo=intel&logoColor=white) ![ModelSim](https://img.shields.io/badge/ModelSim-1E88E5?style=flat-square) ![FSM](https://img.shields.io/badge/FSM-7B1FA2?style=flat-square)
+Reaction-time tester in Verilog on the DE1-SoC. An FSM controls the test, with timing, debouncing and seven-segment output, verified in ModelSim before hardware.
 
-[![View Code](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/vishnudevav/fpga-reaction-timer)
+![Verilog](https://img.shields.io/badge/Verilog-8A2BE2?style=flat-square) ![Quartus](https://img.shields.io/badge/Quartus-0071C5?style=flat-square&logo=intel&logoColor=white) ![ModelSim](https://img.shields.io/badge/ModelSim-1E88E5?style=flat-square) ![FSM](https://img.shields.io/badge/FSM-7B1FA2?style=flat-square)
 
-### 03 · Maze Escape Game
-> **MSc Coursework · DE1-SoC (ARM Cortex-A9)**
+[![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/vishnudevav/fpga-reaction-timer)
 
-A maze game running on the ARM Cortex-A9 hard processor of the DE1-SoC, rendered on an LT24 LCD. Includes the display driver, input handling, and the game logic loop.
+</td>
+<td width="50%" valign="top">
 
-![ARM](https://img.shields.io/badge/ARM_Cortex--A9-0091BD?style=flat-square&logo=arm&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![LT24 LCD](https://img.shields.io/badge/LT24-LCD-455A64?style=flat-square)
+**03 · Maze Escape Game**<br/>
+<sub>MSc Coursework · DE1-SoC (ARM Cortex-A9)</sub>
 
-[![View Code](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/vishnudevav/maze-escape-de1soc)
+Maze game on the DE1-SoC hard processor, rendered on an LT24 LCD, with the display driver, input handling and game loop.
 
-### 04 · Car Black Box
-> **Emertxe Information Technologies**
+![ARM Cortex-A9](https://img.shields.io/badge/ARM_Cortex--A9-0091BD?style=flat-square&logo=arm&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![LT24 LCD](https://img.shields.io/badge/LT24_LCD-455A64?style=flat-square)
 
-An automotive event-logging system modelled on a vehicle black box. It monitors vehicle events, timestamps them, and stores the log, using SPI and UART to communicate with peripherals.
+[![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/vishnudevav/maze-escape-de1soc)
 
-![PIC](https://img.shields.io/badge/PIC-C41E3A?style=flat-square&logo=microchip&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![SPI](https://img.shields.io/badge/SPI-555555?style=flat-square) ![UART](https://img.shields.io/badge/UART-555555?style=flat-square) ![Automotive](https://img.shields.io/badge/Automotive-1565C0?style=flat-square)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-[![View Code](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/vishnudevav/car-black-box)
+**04 · Car Black Box**<br/>
+<sub>Emertxe Information Technologies</sub>
 
-### 05 · LSB Image Steganography
-> **Emertxe Information Technologies**
+Automotive event logger modelled on a vehicle black box: monitors and timestamps events and stores the log, talking to peripherals over SPI and UART.
 
-A C++ tool that hides a secret message inside a BMP image by changing the least significant bit of each pixel, and recovers it again, using bit-level file handling.
+![PIC](https://img.shields.io/badge/PIC-C41E3A?style=flat-square&logo=microchip&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![SPI](https://img.shields.io/badge/SPI-555555?style=flat-square) ![UART](https://img.shields.io/badge/UART-555555?style=flat-square)
+
+[![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/vishnudevav/car-black-box)
+
+</td>
+<td width="50%" valign="top">
+
+**05 · LSB Image Steganography**<br/>
+<sub>Emertxe Information Technologies</sub>
+
+C++ tool that hides a message inside a BMP image by changing the least significant bit of each pixel, and recovers it, using bit-level file handling.
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Bit Manipulation](https://img.shields.io/badge/Bit_Manipulation-37474F?style=flat-square)
 
-[![View Code](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/vishnudevav/lsb-steganography)
+[![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/vishnudevav/lsb-steganography)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## `$ git log --stat`
+## `$ cat /proc/status`
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=vishnudevav&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishnudevav&layout=compact&theme=tokyonight&hide_border=true"/>
-
-<img src="https://streak-stats.demolab.com?user=vishnudevav&theme=tokyonight&hide_border=true" width="60%"/>
-
-</div>
+```yaml
+open_to:    Full-time embedded / IoT / FPGA roles in Singapore
+studying:   Electrical Engineering with Robotics @ PSB Academy
+exploring:  New boards, sensors and toolchains, one project at a time
+languages:  English, Tamil
+```
 
 ---
 
-## `$ cat education.txt`
+## `$ cat publications.txt`
 
-| | |
-|---|---|
-| 🎓 **MSc Embedded Systems Engineering** | University of Leeds, UK · 2026 |
-| 🎓 **BEng Electronics & Communication Engineering** | Sri Ramakrishna Engineering College, Anna University |
-| 📚 **Currently studying** | Electrical Engineering with Robotics · PSB Academy, Singapore |
-| 📄 **Publication** | Co-author, *Annals of the Romanian Society for Cell Biology* |
+📄 Co-author · *Annals of the Romanian Society for Cell Biology*
 
 ---
 
