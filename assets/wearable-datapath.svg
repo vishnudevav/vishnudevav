@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" font-family="'Fira Code','JetBrains Mono',Consolas,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="338" rx="14" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- title -->
+  <text x="30" y="40" fill="#8b949e" font-size="13" letter-spacing="2">WEARABLE HEALTH MONITORING SYSTEM · STM32 → ESP32</text>
+  <text x="30" y="60" fill="#484f58" font-size="11">msc project · university of leeds · wearable vital-sign monitor with wi-fi streaming</text>
+
+  <!-- links -->
+  <g stroke="#3a4250" stroke-width="1.5">
+    <line x1="150" y1="165" x2="225" y2="165"/>
+    <line x1="745" y1="165" x2="790" y2="165"/>
+    <line x1="890" y1="165" x2="900" y2="165"/>
+    <line x1="363" y1="165" x2="388" y2="165"/>
+    <line x1="526" y1="165" x2="551" y2="165"/>
+  </g>
+  <text x="187" y="152" fill="#7ee787" font-size="10" text-anchor="middle">raw</text>
+  <text x="187" y="190" fill="#484f58" font-size="9" text-anchor="middle">samples</text>
+
+  <!-- animated data dots -->
+  <circle r="4" fill="#7ee787" filter="url(#glow)">
+    <animate attributeName="cx" values="150;225" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="165;165" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#7ee787" filter="url(#glow)">
+    <animate attributeName="cx" values="745;790" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="165;165" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="375" cy="165" r="3.5" fill="#7ee787" filter="url(#glow)"/>
+  <circle cx="538" cy="165" r="3.5" fill="#7ee787" filter="url(#glow)"/>
+
+  <!-- 1. sensor -->
+  <rect x="30" y="120" width="120" height="90" rx="8" fill="#1a0f14" stroke="#f85149" stroke-width="1.5"/>
+  <circle cx="140" cy="130" r="3" fill="#f85149">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="90" y="145" fill="#ff7b72" font-size="13" text-anchor="middle" font-weight="bold">HR SENSOR</text>
+  <polyline points="42,178 60,178 66,170 72,186 78,160 84,192 90,178 138,178" fill="none" stroke="#f85149" stroke-width="1.6" filter="url(#glow)"/>
+  <text x="90" y="202" fill="#6e7681" font-size="9" text-anchor="middle">wearable</text>
+
+  <!-- 2. MCU region -->
+  <rect x="225" y="95" width="520" height="140" rx="10" fill="#140f1f" stroke="#d2a8ff" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <text x="485" y="117" fill="#d2a8ff" font-size="11" text-anchor="middle" letter-spacing="2">MCU FIRMWARE · EMBEDDED C</text>
+
+  <rect x="243" y="135" width="120" height="60" rx="6" fill="#0d1117" stroke="#bc8cff" stroke-width="1.2"/>
+  <text x="303" y="160" fill="#e6edf3" font-size="12" text-anchor="middle">acquisition</text>
+  <text x="303" y="178" fill="#6e7681" font-size="9" text-anchor="middle">sampling · buffering</text>
+
+  <rect x="388" y="135" width="138" height="60" rx="6" fill="#0d1117" stroke="#bc8cff" stroke-width="1.2"/>
+  <text x="457" y="160" fill="#e6edf3" font-size="12" text-anchor="middle">filtering</text>
+  <text x="457" y="178" fill="#6e7681" font-size="9" text-anchor="middle">motion-noise reduction</text>
+
+  <rect x="551" y="135" width="175" height="60" rx="6" fill="#0d1117" stroke="#bc8cff" stroke-width="1.2"/>
+  <text x="638" y="160" fill="#e6edf3" font-size="12" text-anchor="middle">heart-rate extraction</text>
+  <g fill="#bc8cff">
+    <rect x="583" y="176" width="10" height="4" rx="1"/><rect x="598" y="176" width="10" height="4" rx="1"/>
+    <rect x="613" y="176" width="10" height="4" rx="1"/><rect x="628" y="176" width="10" height="4" rx="1"/>
+    <rect x="643" y="176" width="10" height="4" rx="1"/><rect x="658" y="176" width="10" height="4" rx="1"/>
+    <rect x="673" y="176" width="10" height="4" rx="1"/>
+  </g>
+  <text x="485" y="222" fill="#6e7681" font-size="9" text-anchor="middle">prototyped on STM32 · migrated to ESP32</text>
+
+  <!-- 3. wifi -->
+  <rect x="790" y="130" width="100" height="70" rx="8" fill="#1c1708" stroke="#e3b341" stroke-width="1.5"/>
+  <text x="840" y="158" fill="#e3b341" font-size="13" text-anchor="middle" font-weight="bold">Wi-Fi</text>
+  <text x="840" y="176" fill="#6e7681" font-size="9" text-anchor="middle">ESP32 built-in</text>
+  <text x="840" y="189" fill="#6e7681" font-size="9" text-anchor="middle">live streaming</text>
+
+  <!-- 4. host -->
+  <rect x="900" y="125" width="80" height="80" rx="8" fill="#0b1724" stroke="#58a6ff" stroke-width="1.5"/>
+  <circle cx="900" cy="165" r="4" fill="#7ee787" filter="url(#glow)"/>
+  <text x="940" y="158" fill="#79c0ff" font-size="12" text-anchor="middle" font-weight="bold">HOST</text>
+  <text x="940" y="175" fill="#6e7681" font-size="9" text-anchor="middle">live vitals</text>
+  <text x="940" y="188" fill="#6e7681" font-size="9" text-anchor="middle">view</text>
+
+  <!-- footer spec sheet -->
+  <line x1="30" y1="262" x2="970" y2="262" stroke="#21262d"/>
+  <g font-size="11">
+    <text x="30" y="288" fill="#484f58">prototype</text>   <text x="125" y="288" fill="#c9d1d9">STM32</text>
+    <text x="30" y="312" fill="#484f58">final MCU</text>   <text x="125" y="312" fill="#c9d1d9">ESP32</text>
+
+    <text x="350" y="288" fill="#484f58">challenge</text>   <text x="445" y="288" fill="#c9d1d9">motion-noise in HR signal</text>
+    <text x="350" y="312" fill="#484f58">firmware</text>    <text x="445" y="312" fill="#c9d1d9">embedded C</text>
+
+    <text x="700" y="288" fill="#484f58">domain</text>      <text x="790" y="288" fill="#7ee787">biomedical</text>
+    <text x="700" y="312" fill="#484f58">connectivity</text><text x="790" y="312" fill="#7ee787">Wi-Fi</text>
+  </g>
+</svg>
