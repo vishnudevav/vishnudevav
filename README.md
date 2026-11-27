@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Vishnudeva%20Govindarajan&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Embedded%20Systems%20%7C%20FPGA%20%7C%20IoT%20%7C%20Wearables&descAlignY=58&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Embedded+Systems+Engineer+%7C+MSc+Leeds;From+register-level+firmware+to+RTL+on+FPGA;STM32+%E2%80%A2+ESP32+%E2%80%A2+ARM+Cortex-M%2FA+%E2%80%A2+Verilog%2FVHDL;Building+wearable+and+IoT+systems+that+run+on+real+hardware" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Embedded+Systems+Engineer+%7C+MSc+Leeds;From+register-level+firmware+to+RTL+on+FPGA;STM32+%E2%80%A2+ESP32+%E2%80%A2+ARM+Cortex-M%2FA+%E2%80%A2+Verilog%2FVHDL;Building+wearable+and+IoT+systems+that+run+on+real+hardware" alt="Typing SVG" />
 
 <br/>
 
