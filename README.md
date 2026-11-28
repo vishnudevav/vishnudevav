@@ -127,9 +127,9 @@ A multi-sensor wearable that monitors heart rate, SpO2, ECG, body temperature, s
 <td width="50%" valign="top">
 
 **02 · Two-Player FPGA Reaction Timer**<br/>
-<sub>MSc Coursework · DE1-SoC</sub>
+<sub>MSc Group Project · DE1-SoC</sub>
 
-Two-player reaction game in Verilog. A main FSM drives title, instructions, ready, go and winner screens on an LT24 LCD (images stored in on-chip ROM), times both players, compares their reaction times and shows who wins. Debounced inputs, constrained in TimeQuest.
+Two-player reaction game in Verilog. After a 5-second countdown on the 7-segment display, the first player to press after GO wins. A main FSM drives title, instructions, ready, go and winner screens on an LT24 LCD from on-chip image ROMs. Synchronised, debounced inputs and a self-checking testbench.
 
 ![Verilog](https://img.shields.io/badge/Verilog-8A2BE2?style=flat-square) ![Quartus](https://img.shields.io/badge/Quartus-0071C5?style=flat-square&logo=intel&logoColor=white) ![FSM](https://img.shields.io/badge/FSM-7B1FA2?style=flat-square) ![LT24 LCD](https://img.shields.io/badge/LT24_LCD-455A64?style=flat-square) ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
 
@@ -139,13 +139,13 @@ Two-player reaction game in Verilog. A main FSM drives title, instructions, read
 <td width="50%" valign="top">
 
 **03 · Maze Escape Game**<br/>
-<sub>MSc Coursework · DE1-SoC (ARM Cortex-A9)</sub>
+<sub>MSc Group Project · DE1-SoC (ARM Cortex-A9)</sub>
 
-Maze game on the DE1-SoC hard processor, rendered on an LT24 LCD, with the display driver, input handling and game loop.
+Maze game in embedded C on the DE1-SoC ARM Cortex-A9: randomised mazes over two levels, push-button movement with collision detection, an MM:SS timer on the 7-segment displays and a win sound through the audio codec, drawn on an LT24 LCD.
 
 ![ARM Cortex-A9](https://img.shields.io/badge/ARM_Cortex--A9-0091BD?style=flat-square&logo=arm&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![LT24 LCD](https://img.shields.io/badge/LT24_LCD-455A64?style=flat-square)
 
-[![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/vishnudevav/maze-escape-de1soc)
+[![View Code](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/vishnudevav/de1soc-maze-game)
 
 </td>
 </tr>
